@@ -11,7 +11,7 @@ public class Main {
         Stations st4 = new Stations("L B Nagar");
         Stations st5 = new Stations("Tarnaka");
 
-        Train train = new Train(17809, st2, st1);
+        Train train = new Train(17809, st1, st1);
 
         train.move();
     }
