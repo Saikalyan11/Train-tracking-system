@@ -35,7 +35,7 @@ public class Train {
 
     public void move() {
         if (current_station.equals(destination_station)) {
-            System.out.println("the train has arived to your destination");
+            System.out.println("Yout at your destination, Visit again");
         } else {
             System.out.println("Relax it's not your station");
         }
